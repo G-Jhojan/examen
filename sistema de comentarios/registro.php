@@ -17,19 +17,14 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container pt-5">
         <div class="comentarios">
             <h2>Registro de Usuarios</h2>
 
-
-
             <form>
-                <fieldset>
-                    <!-- <legend _msthash="2737891" _msttexthash="92430">Registrese para poder generar los datos</legend> -->
-                    <div class="Registro"> 
-                       
-                       
-                    
+                <!-- <legend _msthash="2737891" _msttexthash="92430">Registrese para poder generar los datos</legend> -->
+                <div class="Registro">
+
                     <div class="form-group">
                         <label for="exampleInputEmail1" class="form-label mt-4" _msthash="3145532" _msttexthash="868153">Dirección de correo electrónico</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese el correo electrónico" _mstplaceholder="751400">
@@ -37,22 +32,26 @@
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1" class="form-label mt-4" _msthash="3145779" _msttexthash="182013">Contraseña</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña" _mstplaceholder="182013">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingresa una contraseña" _mstplaceholder="182013">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1" class="form-label mt-4" _msthash="3145779" _msttexthash="182013">Nombre</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña" _mstplaceholder="182013">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingresa tu nombre" _mstplaceholder="182013">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1" class="form-label mt-4" _msthash="3145779" _msttexthash="182013">Apellido</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña" _mstplaceholder="182013">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingresa tu apellido" _mstplaceholder="182013">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1" class="form-label mt-4" _msthash="3145779" _msttexthash="182013">Direccion</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña" _mstplaceholder="182013">
+                        <label for="exampleInputPassword1" class="form-label mt-4" _msthash="3145779" _msttexthash="182013">Dirección</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingresa tu dirección" _mstplaceholder="182013">
                     </div>
+
+                    <div class="col-12 d-flex  justify-content-end">
+                        <button type="button" class="btn btn-primary" _msthash="1333917" _msttexthash="115193">Siguiente => </button>
                     </div>
-                   
+
+                </div>
             </form>
 
 
@@ -72,25 +71,13 @@
                 $mysqli -> close();*/
             ?>
             <!-- <a href="index.php">REGRESAR A LA PAGINA DE INICIO</a> -->
-
-
-
         </div>
     </div>
 
-<div class="boton">
-
-<button type="button" class="btn btn-primary" _msthash="1333917" _msttexthash="115193">Siguiente => </button>
-
-</div>
 
 
-
-    <div class="btn-add">
-
-        <a href=""> <i class="fas fa-plus-circle"></i> </a>
-    </div>
     <!-- ES UN ARCHIVO JS PARA LAS ANIMACIONES, QUE FUNCIONE EL TEMA QUE NECESITAMOS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
+
 </html>
