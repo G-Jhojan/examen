@@ -25,7 +25,7 @@
 
             <form>
                 <fieldset>
-                    <legend _msthash="2737891" _msttexthash="92430">Registrese para poder generar los datos</legend>
+                    <!-- <legend _msthash="2737891" _msttexthash="92430">Registrese para poder generar los datos</legend> -->
                     <div class="Registro"> 
                        
                        
