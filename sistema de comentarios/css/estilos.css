@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: #f2f2f2;
+    font-family: 'Oswald', sans-serif;
+
+}
+div.container{
+
+    margin: 0 auto;
+    width: 60%;
+}
+div.comentarios{
+    background: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    border-top: 10px solid #8de6ae;
+    margin-top: 60px;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+h2{
+    color: #8de6ae;
+    border-bottom: 1px solid #c8f3d8;
+}
+div.comentarios div.comentario{
+    padding: 20px;
+    border-bottom: 1px solid f2f2f2;
+}
+div.comentarios div.comentario span{
+    font-weight: bold;
+}
+div.comentarios div.comentario div.acciones{
+    padding: 10px 0;
+    text-align: right;
+}
+div.comentarios div.comentario button{
+    padding: 10px 15;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    transition: ease .3s all;
+    margin: 0 10px;
+}
+div.comentarios div.comentario button :hover{
+    transform: scale(5.5);  
+}
+div.comentarios div.comentario button.borrar{
+    background: #fe6969;
+    
+}
+div.comentarios div.comentario button.editar{
+    background: #759afa;
+}    
+div.btn-add{
+
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+}
+div.btn-add i {
+    color:#1fd660;
+    font-size: 50px;
+    text-shadow: 0 0 2pxrgba(0,0,0,.3);
+    transition: all .3s ease;
+
+
+}
+
+div.error {
+    background: #fe6969;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+div.success{
+    background: #1fd660;
+    padding: 20px;
+    margin: 20px;
+}
+div.formulario{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px 0;
+
+}
+

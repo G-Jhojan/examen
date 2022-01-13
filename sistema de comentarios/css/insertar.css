@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+div.Registro{
+    background: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    border-top: 10px solid #8de6ae;
+    margin-top: 60px;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+div.boton{
+   width: auto;
+   height: auto;
+   position: fixed;
+   position: fixed;
+   left: 1100px;
+   top: 750px;
+}
