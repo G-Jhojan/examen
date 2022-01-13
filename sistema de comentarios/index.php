@@ -19,7 +19,7 @@
 <body>
     <div class="container pt-5">
         <div class="comentarios">
-            <h2>Tareas</h2>
+            <h2>Login.</h2>
 
 
 
@@ -31,25 +31,31 @@
 
 
                         <!-- <div class="form-group"> -->
-                        <label for="exampleInputEmail1" class="form-label mt-4" _msthash="3145532" _msttexthash="868153">Deber N.</label>
+                        <label for="exampleInputEmail1" class="form-label mt-4" _msthash="3145532" _msttexthash="868153">Correo Electronico.</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="" _mstplaceholder="751400">
                         <!-- <small id="emailHelp" class="form-text text-muted" _msthash="2500745" _msttexthash="2221635">Nunca compartiremos tu correo electrónico con nadie más.</small> -->
                         <!-- </div> -->
                         <div class="form-group">
-                            <label for="exampleInputPassword1" class="form-label mt-4" _msthash="3145779" _msttexthash="182013">Materia </label>
+                            <label for="exampleInputPassword1" class="form-label mt-4" _msthash="3145779" _msttexthash="182013"> Password</label>
                             <input type="text" class="form-control" id="exampleInputPassword1" placeholder="" _mstplaceholder="182013">
                         </div>
+                        <div class="boton1">
 
-                        <div class="btn-group" role="group" aria-label="Grupo de botones con menú desplegable anidado" _mstaria-label="1430650">
-                            <button type="button" class="btn btn-info" _msthash="1818037" _msttexthash="207493">Estudiantes</button>
-                            <div class="btn-group" role="group" _msthidden="2">
-                                <button id="btnGroupDrop3" type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                                <div class="dropdown-menu" aria-labelledby="btnGroupDrop3" style="" _mstvisible="0">
-                                    <a class="dropdown-item" href="#" _msthash="2276612" _msttexthash="339885" _mstvisible="1">Enlace desplegable</a>
-                                    <a class="dropdown-item" href="#" _msthash="2276729" _msttexthash="339885" _mstvisible="1">Enlace desplegable</a>
-                                </div>
+                            <button type="button" class="btn btn-primary" _msthash="1333917" _msttexthash="115193">Registrarse </button>
+
                             </div>
-                        </div>
+
+
+                            <div class="boton2">
+
+                            <button type="button" class="btn btn-danger" _msthash="1333917" _msttexthash="115193">Ingresar </button>
+
+                            </div>
+
+
+                        
+
+                        
                         <!-- <div class="form-group">
                             <label for="exampleInputPassword1" class="form-label mt-4" _msthash="3145779" _msttexthash="182013">Asignatura</label>
                             <input type="text" class="form-control" id="exampleInputPassword1" placeholder="" _mstplaceholder="182013">
@@ -85,11 +91,7 @@
         </div>
     </div>
 
-    <div class="boton1">
 
-        <button type="button" class="btn btn-primary" _msthash="1333917" _msttexthash="115193">Siguiente => </button>
-
-    </div>
 
 
 

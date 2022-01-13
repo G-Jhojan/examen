@@ -42,7 +42,7 @@ if (isset($_GET['id'])) {
 </head>
 
 <body>
-    <div class="container">
+    <div class="container pt-5">
         <div class="comentarios">
             <h2>Borrar Comentarios</h2>
 

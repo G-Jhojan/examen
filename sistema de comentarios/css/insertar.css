@@ -24,7 +24,15 @@ div.boton1{
     width: auto;
     height: auto;
     position: fixed;
-    position: fixed;
     left: 1100px;
     top: 750px;
+ }
+ div.boton2{
+    width: auto;
+    height: auto;
+    position: fixed;
+    left: 1100px;
+    top: 50px;
+    background: #8de6ae;
+    
  }
