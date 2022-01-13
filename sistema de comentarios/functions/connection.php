@@ -1,6 +1,6 @@
 <?php
 
-$mysqli = new mysqli("localhost", "root", "","curso1") ;
+$mysqli = new mysqli("localhost", "root", "","registro_notas") ;
 
 // evaluar que se haya conectado correctamente
 if($mysqli -> connect_errno){
