@@ -1,14 +1,7 @@
 <?php
 
-$mysqli = new mysqli("localhost", "root", "","registro_notas") ;
+session_start();
 
-// evaluar que se haya conectado correctamente
-if($mysqli -> connect_errno){
+$conn = new mysqli("localhost", "root", "", "registro_de_notas");
 
-
-    echo "fallo al conectar, numero de error". $mysqli -> errno. "<br> Descripcion del error ".$mysqli-> connect_error ;
-
-    echo "algo salio mal, intenta de nuevo";
-} else {
-    //echo "se conecto exitosamente, sigue asi bro";
-}
+?>
